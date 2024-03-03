@@ -10,5 +10,5 @@ export const MyContextProvider = ({children}) => {
 		<MyContext.Provider value={{count, setCount}}>
 			{children}
 		</MyContext.Provider>
-	) 
+	)
 }
